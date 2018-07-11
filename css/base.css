@@ -1,0 +1,127 @@
+/**
+ * css reset
+ */
+body, h1, h2, h3, h4, h5, h6, p, hr, /* 结构元素 */
+ul, ol, li, dl, dt, dd, /* 列表元素 */
+form, fieldset, legend, input, button, select, textarea, /* 表单元素 */
+th, td, /* 表格元素 */
+pre { /* 文本格式元素 */
+	padding: 0;
+	margin: 0;
+}
+input, button, select, textarea {
+	font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+}
+input, select {
+	vertical-align: middle;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+caption, em, th, i {
+	font-style: normal;
+	font-weight: normal;
+}
+i {
+	font-style: normal;
+}
+ul, ol {
+	list-style: none;
+}
+li {
+	vertical-align: top;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	background-color: #fff;
+}
+img {
+	border: none;
+	vertical-align: top;
+}
+textarea {
+	overflow: auto;
+	resize: none;
+}
+
+body,
+input, button, select, textarea {
+	color: #333;
+	font: 12px/1 "Microsoft YaHei", Tahoma, Helvetica, Arial, SimSun, sans-serif;
+}
+a {
+/*	color: #666;*/
+	text-decoration: none;
+	outline: none;
+}
+
+/**
+ * 公共样式
+ */
+.container {
+	width: 979px;
+	margin: 0 auto;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.text-hidden {
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.text-ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.cf:before,
+.cf:after {
+	display: table;
+	content: " ";
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	*zoom: 1;
+}
+.transition {
+	-o-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	transition: all 0.6s;
+}
+
+/*.fade {
+	visibility: hidden;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}*/
+
+
+
+
+
+/*.text-hidden {
+	display: inline-block;
+	overflow: hidden;
+	text-indent: -9999px;
+}*/
+
+
+
+
+
+
+.container-fluid {
+	width: 80%;
+	margin: 0 auto;
+}
